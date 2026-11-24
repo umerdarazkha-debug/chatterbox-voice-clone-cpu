@@ -21,7 +21,7 @@ You need [uv](https://docs.astral.sh/uv/) and about 4 GB of free disk space.
 ```bash
 git clone https://github.com/umerdarazkha-debug/chatterbox-voice-clone-cpu
 cd chatterbox-voice-clone-cpu
-./setup.sh
+sh setup.sh
 ```
 
 The first run downloads the model weights from Hugging Face (a few GB, about 10 minutes on a normal connection). After that it works offline.
