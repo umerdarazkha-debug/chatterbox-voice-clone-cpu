@@ -1,0 +1,12 @@
+# Version pins that make Chatterbox install and run on an Intel (x86_64) Mac.
+# torch 2.2.2 is the last release with x86_64 macOS wheels.
+torch==2.2.2
+torchaudio==2.2.2
+# torch 2.2.2 was built against NumPy 1.x
+numpy<2
+# newest numba/llvmlite that still ship x86_64 macOS wheels for Python 3.11
+numba==0.60.0
+llvmlite==0.43.0
+ml_dtypes==0.5.1
+# the Perth watermarker still imports pkg_resources
+setuptools<81
