@@ -1,0 +1,2 @@
+This voice was cloned from a short sample.
+It runs on an old Intel Mac, with no graphics card.
